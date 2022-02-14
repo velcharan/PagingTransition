@@ -13,6 +13,7 @@
 		35323C1E27BA7A8B003CD8AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35323C1C27BA7A8B003CD8AE /* Main.storyboard */; };
 		35323C2027BA7A8F003CD8AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35323C1F27BA7A8F003CD8AE /* Assets.xcassets */; };
 		35323C2327BA7A8F003CD8AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35323C2127BA7A8F003CD8AE /* LaunchScreen.storyboard */; };
+		35323C2B27BA7AFD003CD8AE /* RootPagingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35323C2A27BA7AFD003CD8AE /* RootPagingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		35323C1F27BA7A8F003CD8AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		35323C2227BA7A8F003CD8AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		35323C2427BA7A8F003CD8AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35323C2A27BA7AFD003CD8AE /* RootPagingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootPagingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				35323C1627BA7A8B003CD8AE /* AppDelegate.swift */,
+				35323C2A27BA7AFD003CD8AE /* RootPagingViewController.swift */,
 				35323C1827BA7A8B003CD8AE /* SceneDelegate.swift */,
 				35323C1A27BA7A8B003CD8AE /* ViewController.swift */,
 				35323C1C27BA7A8B003CD8AE /* Main.storyboard */,
@@ -140,6 +143,7 @@
 			files = (
 				35323C1B27BA7A8B003CD8AE /* ViewController.swift in Sources */,
 				35323C1727BA7A8B003CD8AE /* AppDelegate.swift in Sources */,
+				35323C2B27BA7AFD003CD8AE /* RootPagingViewController.swift in Sources */,
 				35323C1927BA7A8B003CD8AE /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -306,7 +310,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -334,7 +338,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
